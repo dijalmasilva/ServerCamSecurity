@@ -1,7 +1,7 @@
-package br.com.dijalmasiva.pdm.services;
+package br.com.dijalmasilva.pdm.services;
 
-import br.com.dijalmasiva.pdm.models.WebCam;
-import br.com.dijalmasiva.pdm.repository.WebCamRepository;
+import br.com.dijalmasilva.pdm.models.WebCam;
+import br.com.dijalmasilva.pdm.repository.WebCamRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package br.com.dijalmasiva.pdm;
+package br.com.dijalmasilva.pdm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

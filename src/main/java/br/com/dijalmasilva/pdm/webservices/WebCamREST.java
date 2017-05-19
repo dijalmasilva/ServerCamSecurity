@@ -1,7 +1,7 @@
-package br.com.dijalmasiva.pdm.webservices;
+package br.com.dijalmasilva.pdm.webservices;
 
-import br.com.dijalmasiva.pdm.models.WebCam;
-import br.com.dijalmasiva.pdm.services.WebCamService;
+import br.com.dijalmasilva.pdm.models.WebCam;
+import br.com.dijalmasilva.pdm.services.WebCamService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

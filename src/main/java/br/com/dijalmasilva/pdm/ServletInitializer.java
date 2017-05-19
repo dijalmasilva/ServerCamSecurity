@@ -1,4 +1,4 @@
-package br.com.dijalmasiva.pdm;
+package br.com.dijalmasilva.pdm;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;

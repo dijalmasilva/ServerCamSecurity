@@ -1,9 +1,9 @@
-package br.com.dijalmasiva.pdm.services;
+package br.com.dijalmasilva.pdm.services;
 
-import br.com.dijalmasiva.pdm.converts.RecordVOConverter;
-import br.com.dijalmasiva.pdm.forms.RecordVO;
-import br.com.dijalmasiva.pdm.models.Record;
-import br.com.dijalmasiva.pdm.repository.RecordRepository;
+import br.com.dijalmasilva.pdm.converts.RecordVOConverter;
+import br.com.dijalmasilva.pdm.forms.RecordVO;
+import br.com.dijalmasilva.pdm.models.Record;
+import br.com.dijalmasilva.pdm.repository.RecordRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

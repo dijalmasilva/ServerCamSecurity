@@ -1,4 +1,4 @@
-package br.com.dijalmasiva.pdm.converts;
+package br.com.dijalmasilva.pdm.converts;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;

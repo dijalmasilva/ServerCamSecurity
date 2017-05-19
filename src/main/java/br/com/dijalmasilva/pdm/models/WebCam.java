@@ -1,4 +1,4 @@
-package br.com.dijalmasiva.pdm.models;
+package br.com.dijalmasilva.pdm.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

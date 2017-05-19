@@ -1,6 +1,6 @@
-package br.com.dijalmasiva.pdm.repository;
+package br.com.dijalmasilva.pdm.repository;
 
-import br.com.dijalmasiva.pdm.models.Record;
+import br.com.dijalmasilva.pdm.models.Record;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,8 +1,8 @@
-package br.com.dijalmasiva.pdm.webservices;
+package br.com.dijalmasilva.pdm.webservices;
 
-import br.com.dijalmasiva.pdm.forms.RecordVO;
-import br.com.dijalmasiva.pdm.models.Record;
-import br.com.dijalmasiva.pdm.services.RecordService;
+import br.com.dijalmasilva.pdm.models.Record;
+import br.com.dijalmasilva.pdm.services.RecordService;
+import br.com.dijalmasilva.pdm.forms.RecordVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

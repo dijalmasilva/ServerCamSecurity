@@ -1,4 +1,4 @@
-package br.com.dijalmasiva.pdm;
+package br.com.dijalmasilva.pdm;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
