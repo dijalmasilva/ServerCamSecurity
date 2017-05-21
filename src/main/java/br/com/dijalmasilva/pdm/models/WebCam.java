@@ -18,6 +18,9 @@ public class WebCam implements Serializable {
     private boolean activate;
     private boolean recording;
 
+    public WebCam() {
+    }
+
     public WebCam(String nameCam) {
         this.nameCam = nameCam;
         this.activate = true;
