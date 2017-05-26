@@ -5,6 +5,7 @@ import br.com.dijalmasilva.pdm.services.RecordService;
 import br.com.dijalmasilva.pdm.forms.RecordVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
@@ -28,8 +29,8 @@ public class RecordREST {
     }
 
     @PostMapping
-    public Record saveRecord(@RequestBody RecordVO recordVO) {
-        return service.save(recordVO);
+    public Record saveRecord(@RequestBody Record record) {
+        return service.save(record);
     }
 
     @GetMapping("/{id}")

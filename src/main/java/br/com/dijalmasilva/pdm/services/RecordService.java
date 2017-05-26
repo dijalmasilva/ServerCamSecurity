@@ -1,7 +1,5 @@
 package br.com.dijalmasilva.pdm.services;
 
-import br.com.dijalmasilva.pdm.converts.RecordVOConverter;
-import br.com.dijalmasilva.pdm.forms.RecordVO;
 import br.com.dijalmasilva.pdm.models.Record;
 import br.com.dijalmasilva.pdm.repository.RecordRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +20,7 @@ public class RecordService {
         this.dao = dao;
     }
 
-    private Record save(Record record) {
+    public Record save(Record record) {
         return dao.save(record);
     }
 
@@ -34,10 +32,10 @@ public class RecordService {
         dao.delete(id);
     }
 
-    public Record save(RecordVO recordVO) {
-        RecordVOConverter converterVO = new RecordVOConverter();
-        return converterVO.convert(recordVO);
-    }
+//    public Record save(RecordForm recordForm) {
+//        RecordFormConvert recordFormConvert = new RecordFormConvert();
+//        return dao.save(recordFormConvert.convert(recordForm));
+//    }
 
     public List<Record> findByContainsNameCam(String nameCam) {
         return dao.findByPathRecordContainingOrderByDateTimeDesc(nameCam);

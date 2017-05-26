@@ -23,10 +23,10 @@ dist/
 nbdist/
 .nb-gradle/
 
-# Compiled class file
+# Compiled class record
 *.class
 
-# Log file
+# Log record
 *.log
 
 # BlueJ files
@@ -45,3 +45,6 @@ nbdist/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+resources/
+src/main/webapp/
+src/test/java/br/com/dijalmasiva/

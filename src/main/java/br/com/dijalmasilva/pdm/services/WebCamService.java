@@ -22,6 +22,7 @@ public class WebCamService {
 
     public WebCam save(WebCam webCam) {
         webCam.setNameCam(generateNameCam());
+        webCam.setActivate(true);
         return dao.save(webCam);
     }
 
